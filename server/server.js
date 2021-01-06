@@ -12,8 +12,11 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
 
-app.use(express.static('public'));
+app.use(express.static('client/dist'));
+// app.post('/user', (req, res) => {
+//   const user = req.body;
 
+// });
 app.use('/', router);
 
 app.listen(PORT, () => console.log('Listening on port: ', PORT));

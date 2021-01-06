@@ -1,0 +1,23 @@
+body {
+  background-image: url("./clouds.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.blocked {
+  color: black;
+}
+
+.listed {
+  color: black;
+  display: inline-block;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+.black {
+  color: black;
+}
